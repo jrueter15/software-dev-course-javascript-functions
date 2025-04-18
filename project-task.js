@@ -60,6 +60,9 @@ for (let i = 0; i < names.length; i++) {
 
 🔹 Break Down Tasks into Functions:
    - Identify repetitive patterns (e.g., greetings, calculations, list printing)
+      
+First one is simple, just printing multiple greetings. 
+
    - Define separate functions for each task
 
 🔹 Write Functions with Parameters and Return Values:
@@ -72,3 +75,36 @@ for (let i = 0; i < names.length; i++) {
 */
 
 // ✅ Your refactored code goes below this line!
+
+// Function 1 - Greeting multiple users
+
+function greet(name) {
+    console.log("Welcome, " + name + "!")
+return;
+}
+
+greet("Alice");
+greet("Bob");
+greet("Charlie");
+
+// Function 2 - Sum calculation
+let addNumbers = function(num1, num2) {
+      return num1 + num2;
+   }
+console.log("The sum of 5 and 10 is " + addNumbers(5, 10));
+
+// Function 3 - Product calculation
+function calculateProduct(num1, num2){
+   return num1 * num2;
+}
+console.log("The product of 5 and 10 is " + calculateProduct(5, 10));
+
+// Function 4 - Print names from a list
+function printNames(names){
+   console.log("Names in the list:");
+   
+   for (let i = 0; i < names.length; i++) {
+      console.log(names[i]);
+   }
+}
+printNames(["Alice", "Bob", "Charlie"]);
