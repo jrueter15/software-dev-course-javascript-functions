@@ -108,3 +108,19 @@ function printNames(names){
    }
 }
 printNames(["Alice", "Bob", "Charlie"]);
+
+/*
+Throwing the solution in here because I like their use of template literals and I haven't gotten used to those yet
+
+greet("Bob");
+greet("Charlie");
+let num1 = 5, num2 = 10;
+console.log(`The sum of ${num1} and ${num2} is ${calculateSum(num1,
+num2)}`);
+console.log(`The product of ${num1} and ${num2} is
+${calculateProduct(num1, num2)}`);
+let names = ["Alice", "Bob", "Charlie"];
+printArray(names);
+
+
+*/
